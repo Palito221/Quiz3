@@ -1,10 +1,10 @@
-
+import RegisterForm from "../components/RegisterForm"
 
 function Register() {
 
   return (
     <div>
-        <Register />
+        <RegisterForm />
     </div>
   )
 }

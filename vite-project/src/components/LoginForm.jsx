@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
-function Login() {
+function LoginForm() {
   const [nombre,setNombre] = useState("")
-  const [edad,setEdad] = useState(0)
+  const [contraseña,setContraseña] = useState("")
 
 
   return (
@@ -12,4 +12,4 @@ function Login() {
   )
 }
 
-export default Login
+export default LoginForm
