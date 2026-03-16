@@ -1,0 +1,17 @@
+{
+  "administrador": [
+    {
+      "id": "27fc",
+      "usuario": "quiz3@admin",
+      "contraseña": "1234"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "77f5",
+      "usuario": "quiz3@admin",
+      "contraseña": "1234"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
