@@ -60,4 +60,4 @@ async function deleteUsuarios(usuario, id) {
     }
 }
 
-export default {getData, postUsuarios, putUsuarios, deleteUsuarios}
+export {getData, postUsuarios, putUsuarios, deleteUsuarios}

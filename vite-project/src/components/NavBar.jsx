@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from "react-router-dom"
 
 function NavBar() {
   return (
@@ -7,8 +7,8 @@ function NavBar() {
             <h1>Tienda</h1>
 
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/Register">Registrese</Link></li>
             </ul>
         </header>
     </div>

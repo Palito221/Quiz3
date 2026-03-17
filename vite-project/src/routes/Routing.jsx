@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import Admin from "../pages/AdminDashboard";
 
 const Routing =()=> {
   
@@ -16,6 +17,7 @@ const Routing =()=> {
                 (cómo la de apple que la propia página dice que la página no existe, no lo hace el buscador) */}
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Register" element={<Register />} />
+                <Route path="/AdminDashboard" element={<Admin />} />
             </Routes>
         </Router>
   )
